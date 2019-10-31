@@ -23,22 +23,31 @@
     <style>
         body {
             background-color: black;
-            color: white;
+            color: #333;
             text-align: center;
             font-family: 'Open Sans', sans-serif;
         }
+
         a {
             text-decoration: none;
-            color: #333;
+            color: #666;
+        }
+
+        a:hover {
+            color: white;
         }
 
         .center {
             display: block;
             margin-left: auto;
             margin-right: auto;
-            width: 40%;
-            padding: 50px;
+            height: 30%;
             border: none;
+            margin-top: 10%;
+        }
+
+        nav {
+            padding: 40px;
         }
     </style>
 
@@ -52,11 +61,12 @@
     <a href="mailto:avi802019@gmail.com">
         <img src="img/jordi80.svg" alt="Jordi80" class="center">
     </a>
-    <a href="mailto:avi802019@gmail.com">email</a>
-    <a href="https://photos.app.goo.gl/Z3hgEDfmiymVbnZY7">fotos</a>
-    <a href="https://github.com/xarop/jordi80">github</a>
-    <!-- <a href="https://www.publicalbum.org/blog/embedding-google-photos-albums">embed</a>  -->
-    <br/><br/>
+    <nav>
+        <a href="mailto:avi802019@gmail.com">email</a> |
+        <a href="https://photos.app.goo.gl/Z3hgEDfmiymVbnZY7">fotos</a> |
+        <a href="https://github.com/xarop/jordi80">github</a>
+        <!-- <a href="https://www.publicalbum.org/blog/embedding-google-photos-albums">embed</a>  -->
+    </nav>
     <!--  https://www.publicalbum.org/blog/embedding-google-photos-albums -->
 
     <script src="https://cdn.jsdelivr.net/npm/publicalbum@latest/embed-ui.min.js" async></script>
